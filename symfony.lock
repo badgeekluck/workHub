@@ -75,6 +75,15 @@
     "doctrine/reflection": {
         "version": "v1.1.0"
     },
+    "elasticsearch/elasticsearch": {
+        "version": "v7.5.0"
+    },
+    "guzzlehttp/ringphp": {
+        "version": "1.1.1"
+    },
+    "guzzlehttp/streams": {
+        "version": "3.0.0"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
@@ -83,6 +92,9 @@
     },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.1"
+    },
+    "monolog/monolog": {
+        "version": "2.0.2"
     },
     "ocramius/package-versions": {
         "version": "1.4.2"
@@ -101,6 +113,9 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "react/promise": {
+        "version": "v2.7.1"
     },
     "symfony/cache": {
         "version": "v4.4.2"
