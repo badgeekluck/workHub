@@ -75,8 +75,26 @@
     "doctrine/reflection": {
         "version": "v1.1.0"
     },
+    "elasticsearch/elasticsearch": {
+        "version": "v7.5.0"
+    },
+    "guzzlehttp/ringphp": {
+        "version": "1.1.1"
+    },
+    "guzzlehttp/streams": {
+        "version": "3.0.0"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
+    },
+    "laminas/laminas-json": {
+        "version": "3.1.2"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.0.1"
+    },
+    "monolog/monolog": {
+        "version": "2.0.2"
     },
     "ocramius/package-versions": {
         "version": "1.4.2"
@@ -85,7 +103,7 @@
         "version": "2.2.3"
     },
     "php": {
-        "version": "7.2"
+        "version": "7.3"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -95,6 +113,9 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "react/promise": {
+        "version": "v2.7.1"
     },
     "symfony/cache": {
         "version": "v4.4.2"
@@ -201,6 +222,9 @@
     "symfony/polyfill-php73": {
         "version": "v1.13.1"
     },
+    "symfony/process": {
+        "version": "v4.4.4"
+    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -226,6 +250,15 @@
     },
     "symfony/var-exporter": {
         "version": "v4.4.2"
+    },
+    "symfony/web-server-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "dae9b39fd6717970be7601101ce5aa960bf53d9a"
+        }
     },
     "symfony/yaml": {
         "version": "v4.4.2"
