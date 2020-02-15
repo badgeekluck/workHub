@@ -1,0 +1,17 @@
+fos_user:
+    db_driver: orm
+    firewall_name: public
+    user_class: WorkHub\Entity\User
+    model_manager_name: users
+    use_authentication_listener: false
+    from_email:
+        address: "%env(FROM_EMAIL_INFO)%"
+        sender_name: "%env(FROM_EMAIL_SENDER_NAME)%"
+    registration:
+        confirmation:
+            enabled: true
+#    resetting:
+#        email:
+#            from_email:
+#                address:        resetting@example.com
+#                sender_name:    Demo Resetting
